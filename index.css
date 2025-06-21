@@ -355,7 +355,6 @@
   padding-bottom: 0px;
   background-size: contain;
   justify-content: center;
-  background-image: url("https://play.teleporthq.io/static/svg/default-img.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -613,22 +612,6 @@
   .home-text107 {
     width: auto;
   }
-  .home-slider .swiper-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .home-slider .swiper-slide {
-    width: 100%;
-    max-width: 450px;
-    margin-bottom: var(--dl-layout-space-twounits);
-    height: auto;
-  }
-  .home-slider-button-prev,
-  .home-slider-button-next,
-  .home-slider-pagination {
-    display: none;
-  }
   .home-features-card1,
   .home-features-card2,
   .home-features-card3,
@@ -656,7 +639,6 @@
   .home-text-container5,
   .home-text-container6 {
     align-items: center;
-    text-align: center;
   }
   .home-heading13, .home-heading16 {
     margin-top: var(--dl-layout-space-unit);
