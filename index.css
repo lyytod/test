@@ -712,21 +712,3 @@
   margin-top: auto;
   align-self: center;
 }
-@media(max-width: 767px) {
-  .home-slider .swiper-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .home-slider .swiper-slide {
-    width: 100%;
-    max-width: 450px;
-    margin-bottom: var(--dl-layout-space-twounits);
-    height: auto;
-  }
-  .home-slider-button-prev,
-  .home-slider-button-next,
-  .home-slider-pagination {
-    display: none;
-  }
-}
