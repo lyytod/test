@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Landing Page</title>
+    <meta property="og:title" content="Landing Page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Raleway;
+        font-size: 18px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.55;
+        color: var(--dl-color-gray-black);
+        background: var(--dl-color-gray-white);
+
+        fill: var(--dl-color-gray-black);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+      html {
+      scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container1">
+        <div data-role="Header" class="home-navbar-container">
+          <div class="home-navbar">
+            <div class="home-left-side">
+              <img
+                alt="image"
+                src="public/myrep-200h.jpeg"
+                class="home-image1"
+              />
+              <div data-role="BurgerMenu" class="home-burger-menu">
+                <svg viewBox="0 0 1024 1024" class="home-icon10">
+                  <path
+                    d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="home-links-container1">
+                <a href="#resources" class="home-link1 Anchor">Home</a>
+                <a href="#inspiration" class="home-link2 Anchor">Paket</a>
+              </div>
+            </div>
+            <div class="home-right-side"></div>
+            <div data-role="MobileMenu" class="home-mobile-menu">
+              <div class="home-container2">
+                <img
+                  alt="image"
+                  src="https://play.teleporthq.io/static/svg/default-img.svg"
+                  class="home-image2"
+                />
+                <div data-role="CloseMobileMenu" class="home-close-menu">
+                  <svg viewBox="0 0 1024 1024" class="home-icon12">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="home-links-container2">
+                <a href="#resources" class="home-link3 Anchor">Resources</a>
+                <a href="#inspiration" class="home-link4 Anchor">Inspiration</a>
+                <span class="home-link5 Anchor">Process</span>
+                <span class="home-link6 Anchor">Our story</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="resources" class="home-hero">
+          <div class="home-content-container">
+            <div class="home-hero-text">
+              <h1 class="home-heading10 Section-Heading">MyRepublic Wifi</h1>
+              <span class="home-text100">
+                <span>
+                  MyRepublic adalah salah satu penyedia layanan internet dibawah
+                  naungan Sinarmas Group. Dengan visi menjadi penyedia layanan
+                  internet terbaik di Indonesia, MyRepublic terus berkembang dan
+                  memperluas cakupan area di wilayah Indonesia. Lebih dari 100
+                  Kota &amp; Kabupaten sudah menikmati layanan internet
+                  MyRepublic.
+                </span>
+                <br class="Section-Text" />
+                <span>
+                  Dengan konsep instalasi menggunakan kabel optic, MyRepublic
+                  menjamin pengalaman internet pelanggannya yang anti ngelag,
+                  anti gangguan cuaca, kecepatan download &amp; upload yang
+                  simetris, serta tanpa batasan kuota bagi penggunanya.
+                </span>
+                <br class="Section-Text" />
+                <span>
+                  Berbagai pilihan kuota kecepatan dan promo dari MyRepublic
+                  telah tersedia. Segeralah menjadi bagian dari perkembangan
+                  teknologi dengan dukungan interner yang cepat, aman, dan
+                  bahagia bersama #MyRepublic #WifiTerbaik
+                </span>
+              </span>
+              <a
+                href="https://wa.me/62895322536555?text=Halo%2C%20saya%20tertarik%20dengan%20layanan%20internet%20Anda."
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-cta-btn1 Anchor button"
+              >
+                <span>Hubungi Kami&nbsp;</span>
+                <svg
+                  height="24"
+                  width="24"
+                  viewBox="0 0 24 24"
+                  class="home-icon14"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M16.6 14c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1s-.6.8-.8 1c-.1.2-.3.2-.5.1c-.7-.3-1.4-.7-2-1.2c-.5-.5-1-1.1-1.4-1.7c-.1-.2 0-.4.1-.5s.2-.3.4-.4c.1-.1.2-.3.2-.4c.1-.1.1-.3 0-.4S9.7 8.5 9.5 8c-.1-.7-.3-.7-.5-.7h-.5c-.2 0-.5.2-.6.3Q7 8.5 7 9.7c.1.9.4 1.8 1 2.6c1.1 1.6 2.5 2.9 4.2 3.7c.5.2.9.4 1.4.5c.5.2 1 .2 1.6.1c.7-.1 1.3-.6 1.7-1.2c.2-.4.2-.8.1-1.2zm2.5-9.1C15.2 1 8.9 1 5 4.9c-3.2 3.2-3.8 8.1-1.6 12L2 22l5.3-1.4c1.5.8 3.1 1.2 4.7 1.2c5.5 0 9.9-4.4 9.9-9.9c.1-2.6-1-5.1-2.8-7m-2.7 14c-1.3.8-2.8 1.3-4.4 1.3c-1.5 0-2.9-.4-4.2-1.1l-.3-.2l-3.1.8l.8-3l-.2-.3c-2.4-4-1.2-9 2.7-11.5S16.6 3.7 19 7.5c2.4 3.9 1.3 9-2.6 11.4"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div id="inspiration" class="home-features">
+          <div class="home-heading-container">
+            <h3 class="home-text107">
+              <span class="Section-Heading">
+                Paket Internet MyRepublic&nbsp;
+              </span>
+              <span>🚀</span>
+            </h3>
+          </div>
+          <div
+            data-thq="slider"
+            data-pagination="true"
+            data-navigation="true"
+            data-autoplay="false"
+            data-loop="true"
+            data-disable-autoplay-on-interaction="true"
+            data-pause-autoplay-on-mouse-enter="true"
+            class="home-slider swiper"
+          >
+            <div data-thq="slider-wrapper" class="swiper-wrapper">
+              <div data-thq="slider-slide" class="home-jet20mbps swiper-slide">
+                <div class="home-features-card1">
+                  <div class="home-icon-container1">
+                    <svg height="24" width="24" viewBox="0 0 24 24">
+                      <path
+                        fill="currentColor"
+                        d="M6.71 18.71c-.28.28-2.17.76-2.17.76s.47-1.88.76-2.17c.17-.19.42-.3.7-.3a1.003 1.003 0 0 1 .71 1.71m.7-7.88l-1.91-.82l1.97-1.97l1.44.29c-.57.83-1.08 1.7-1.5 2.5m6.58 7.67l-.82-1.91c.8-.42 1.67-.93 2.49-1.5l.29 1.44zm6-14.49S16.44 3.32 11.76 8c-1.32 1.32-2.4 3.38-2.73 4.04l2.93 2.93c.65-.32 2.71-1.4 4.04-2.73c4.68-4.68 3.99-8.23 3.99-8.23M15 11c-1.1 0-2-.9-2-2s.9-2 2-2s2 .9 2 2s-.9 2-2 2"
+                        opacity=".3"
+                      ></path>
+                      <path
+                        fill="currentColor"
+                        d="M6 15c-.83 0-1.58.34-2.12.88C2.7 17.06 2 22 2 22s4.94-.7 6.12-1.88A2.996 2.996 0 0 0 6 15m.71 3.71c-.28.28-2.17.76-2.17.76s.47-1.88.76-2.17c.17-.19.42-.3.7-.3a1.003 1.003 0 0 1 .71 1.71m10.71-5.06c6.36-6.36 4.24-11.31 4.24-11.31S16.71.22 10.35 6.58l-2.49-.5a2.03 2.03 0 0 0-1.81.55L2 10.69l5 2.14L11.17 17l2.14 5l4.05-4.05c.47-.47.68-1.15.55-1.81zM7.41 10.83l-1.91-.82l1.97-1.97l1.44.29c-.57.83-1.08 1.7-1.5 2.5m6.58 7.67l-.82-1.91c.8-.42 1.67-.93 2.49-1.5l.29 1.44zM16 12.24c-1.32 1.32-3.38 2.4-4.04 2.73l-2.93-2.93c.32-.65 1.4-2.71 2.73-4.04c4.68-4.68 8.23-3.99 8.23-3.99s.69 3.55-3.99 8.23M15 11c1.1 0 2-.9 2-2s-.9-2-2-2s-2 .9-2 2s.9 2 2 2"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="home-text-container1">
+                    <span class="home-heading11">JET 20 Mbps</span>
+                    <span class="home-text110">
+                      <span class="home-text111">
+                        - Ideal s/d 2 Device dengan Intensitas Penggunaan Ringan
+                      </span>
+                      <span>- Cocok Untuk Fasilitas Rumah Pribadi</span>
+                      <span>
+                        - Gratis Biaya Pemasangan &amp; Peralatan Wifi
+                      </span>
+                      <span>- Harga Sudah Termasuk PPN 11% dan FLAT</span>
+                      <span>- Kuota Tanpa Batas (Unlimited)</span>
+                      <span>
+                        - Kecepatan Download &amp; Upload Simetris 1:1
+                      </span>
+                      <span>- Full Fiber Optic Installation</span>
+                      <span>- Anti Gangguan Cuaca &amp; Internet Stabil</span>
+                      <span>
+                        - Layanan After-Sales Melalui Whatsapp Account Executive
+                        MyRepublic
+                      </span>
+                    </span>
+                    <span class="home-heading12">
+                      <span>&nbsp;🚀Harga Area Baru</span>
+                      <br />
+                      <span>Rp. 205.000 / Bulan</span>
+                      <br />
+                    </span>
+                    <span class="home-heading13">
+                      <span>&nbsp;🚀Harga AreaLama</span>
+                      <br />
+                      <span>Rp. 2018.282 / Bulan</span>
+                      <br />
+                    </span>
+                  </div>
+                </div>
+                <a
+                  href="https://wa.me/62895322536555?text=Halo%2C%20saya%20tertarik%20dengan%20layanan%20JET%2020Mbps."
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="home-cta-btn2 Anchor button"
+                >
+                  <span>Hubungi Kami&nbsp;</span>
+                  <svg
+                    height="24"
+                    width="24"
+                    viewBox="0 0 24 24"
+                    class="home-icon19"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M16.6 14c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1s-.6.8-.8 1c-.1.2-.3.2-.5.1c-.7-.3-1.4-.7-2-1.2c-.5-.5-1-1.1-1.4-1.7c-.1-.2 0-.4.1-.5s.2-.3.4-.4c.1-.1.2-.3.2-.4c.1-.1.1-.3 0-.4S9.7 8.5 9.5 8c-.1-.7-.3-.7-.5-.7h-.5c-.2 0-.5.2-.6.3Q7 8.5 7 9.7c.1.9.4 1.8 1 2.6c1.1 1.6 2.5 2.9 4.2 3.7c.5.2.9.4 1.4.5c.5.2 1 .2 1.6.1c.7-.1 1.3-.6 1.7-1.2c.2-.4.2-.8.1-1.2zm2.5-9.1C15.2 1 8.9 1 5 4.9c-3.2 3.2-3.8 8.1-1.6 12L2 22l5.3-1.4c1.5.8 3.1 1.2 4.7 1.2c5.5 0 9.9-4.4 9.9-9.9c.1-2.6-1-5.1-2.8-7m-2.7 14c-1.3.8-2.8 1.3-4.4 1.3c-1.5 0-2.9-.4-4.2-1.1l-.3-.2l-3.1.8l.8-3l-.2-.3c-2.4-4-1.2-9 2.7-11.5S16.6 3.7 19 7.5c2.4 3.9 1.3 9-2.6 11.4"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+              <div
+                data-thq="slider-slide"
+                class="home-plus-value30mbps swiper-slide"
+              >
+                <div class="home-features-card2">
+                  <div class="home-icon-container2">
+                    <svg height="24" width="24" viewBox="0 0 24 24">
+                      <path
+                        fill="currentColor"
+                        d="M6.71 18.71c-.28.28-2.17.76-2.17.76s.47-1.88.76-2.17c.17-.19.42-.3.7-.3a1.003 1.003 0 0 1 .71 1.71m.7-7.88l-1.91-.82l1.97-1.97l1.44.29c-.57.83-1.08 1.7-1.5 2.5m6.58 7.67l-.82-1.91c.8-.42 1.67-.93 2.49-1.5l.29 1.44zm6-14.49S16.44 3.32 11.76 8c-1.32 1.32-2.4 3.38-2.73 4.04l2.93 2.93c.65-.32 2.71-1.4 4.04-2.73c4.68-4.68 3.99-8.23 3.99-8.23M15 11c-1.1 0-2-.9-2-2s.9-2 2-2s2 .9 2 2s-.9 2-2 2"
+                        opacity=".3"
+                      ></path>
+                      <path
+                        fill="currentColor"
+                        d="M6 15c-.83 0-1.58.34-2.12.88C2.7 17.06 2 22 2 22s4.94-.7 6.12-1.88A2.996 2.996 0 0 0 6 15m.71 3.71c-.28.28-2.17.76-2.17.76s.47-1.88.76-2.17c.17-.19.42-.3.7-.3a1.003 1.003 0 0 1 .71 1.71m10.71-5.06c6.36-6.36 4.24-11.31 4.24-11.31S16.71.22 10.35 6.58l-2.49-.5a2.03 2.03 0 0 0-1.81.55L2 10.69l5 2.14L11.17 17l2.14 5l4.05-4.05c.47-.47.68-1.15.55-1.81zM7.41 10.83l-1.91-.82l1.97-1.97l1.44.29c-.57.83-1.08 1.7-1.5 2.5m6.58 7.67l-.82-1.91c.8-.42 1.67-.93 2.49-1.5l.29 1.44zM16 12.24c-1.32 1.32-3.38 2.4-4.04 2.73l-2.93-2.93c.32-.65 1.4-2.71 2.73-4.04c4.68-4.68 8.23-3.99 8.23-3.99s.69 3.55-3.99 8.23M15 11c1.1 0 2-.9 2-2s-.9-2-2-2s-2 .9-2 2s.9 2 2 2"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="home-text-container2">
+                    <span class="home-heading14">
+                      <span>Plus Value</span>
+                      <br />
+                      <span>&nbsp;30 Mbps</span>
+                    </span>
+                    <span class="home-text132">
+                      <span class="home-text133">
+                        - Ideal 3 s/d 4 Device dengan Intensitas Penggunaan
+                        Ringan
+                      </span>
+                      <span>- Cocok Untuk Fasilitas Rumah Pribadi</span>
+                      <span>
+                        - Gratis Biaya Pemasangan &amp; Peralatan Wifi
+                      </span>
+                      <span>- Harga Sudah Termasuk PPN 11% dan FLAT</span>
+                      <span>- Kuota Tanpa Batas (Unlimited)</span>
+                      <span>
+                        - Kecepatan Download &amp; Upload Simetris 1:1
+                      </span>
+                      <span>- Full Fiber Optic Installation</span>
+                      <span>- Anti Gangguan Cuaca &amp; Internet Stabil</span>
+                      <span>
+                        - Layanan After-Sales Melalui Whatsapp Account Executive
+                        MyRepublic
+                      </span>
+                    </span>
+                    <span class="home-heading15">
+                      <span>&nbsp;🚀Harga Promo</span>
+                      <br />
+                      <span>Rp. 227.500 / Bulan</span>
+                      <br />
+                    </span>
+                    <span class="home-heading16">
+                      <span>&nbsp;🚀Harga Upgrade 40Mbps</span>
+                      <br />
+                      <span>Rp. 260.250/ Bulan</span>
+                      <br />
+                    </span>
+                  </div>
+                </div>
+                <a
+                  href="https://wa.me/62895322536555?text=Halo%2C%20saya%20tertarik%20dengan%20layanan%20Plus%20Value%2030Mbps."
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="home-cta-btn3 Anchor button"
+                >
+                  <span>Hubungi Kami&nbsp;</span>
+                  <svg
+                    height="24"
+                    width="24"
+                    viewBox="0 0 24 24"
+                    class="home-icon24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M16.6 14c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1s-.6.8-.8 1c-.1.2-.3.2-.5.1c-.7-.3-1.4-.7-2-1.2c-.5-.5-1-1.1-1.4-1.7c-.1-.2 0-.4.1-.5s.2-.3.4-.4c.1-.1.2-.3.2-.4c.1-.1.1-.3 0-.4S9.7 8.5 9.5 8c-.1-.7-.3-.7-.5-.7h-.5c-.2 0-.5.2-.6.3Q7 8.5 7 9.7c.1.9.4 1.8 1 2.6c1.1 1.6 2.5 2.9 4.2 3.7c.5.2.9.4 1.4.5c.5.2 1 .2 1.6.1c.7-.1 1.3-.6 1.7-1.2c.2-.4.2-.8.1-1.2zm2.5-9.1C15.2 1 8.9 1 5 4.9c-3.2 3.2-3.8 8.1-1.6 12L2 22l5.3-1.4c1.5.8 3.1 1.2 4.7 1.2c5.5 0 9.9-4.4 9.9-9.9c.1-2.6-1-5.1-2.8-7m-2.7 14c-1.3.8-2.8 1.3-4.4 1.3c-1.5 0-2.9-.4-4.2-1.1l-.3-.2l-3.1.8l.8-3l-.2-.3c-2.4-4-1.2-9 2.7-11.5S16.6 3.7 19 7.5c2.4 3.9 1.3 9-2.6 11.4"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+              <div data-thq="slider-slide" class="home-fast50mbps swiper-slide">
+                <div class="home-features-card3">
+                  <div class="home-icon-container3">
+                    <svg height="24" width="24" viewBox="0 0 24 24">
+                      <path
+                        fill="currentColor"
+                        d="M6.71 18.71c-.28.28-2.17.76-2.17.76s.47-1.88.76-2.17c.17-.19.42-.3.7-.3a1.003 1.003 0 0 1 .71 1.71m.7-7.88l-1.91-.82l1.97-1.97l1.44.29c-.57.83-1.08 1.7-1.5 2.5m6.58 7.67l-.82-1.91c.8-.42 1.67-.93 2.49-1.5l.29 1.44zm6-14.49S16.44 3.32 11.76 8c-1.32 1.32-2.4 3.38-2.73 4.04l2.93 2.93c.65-.32 2.71-1.4 4.04-2.73c4.68-4.68 3.99-8.23 3.99-8.23M15 11c-1.1 0-2-.9-2-2s.9-2 2-2s2 .9 2 2s-.9 2-2 2"
+                        opacity=".3"
+                      ></path>
+                      <path
+                        fill="currentColor"
+                        d="M6 15c-.83 0-1.58.34-2.12.88C2.7 17.06 2 22 2 22s4.94-.7 6.12-1.88A2.996 2.996 0 0 0 6 15m.71 3.71c-.28.28-2.17.76-2.17.76s.47-1.88.76-2.17c.17-.19.42-.3.7-.3a1.003 1.003 0 0 1 .71 1.71m10.71-5.06c6.36-6.36 4.24-11.31 4.24-11.31S16.71.22 10.35 6.58l-2.49-.5a2.03 2.03 0 0 0-1.81.55L2 10.69l5 2.14L11.17 17l2.14 5l4.05-4.05c.47-.47.68-1.15.55-1.81zM7.41 10.83l-1.91-.82l1.97-1.97l1.44.29c-.57.83-1.08 1.7-1.5 2.5m6.58 7.67l-.82-1.91c.8-.42 1.67-.93 2.49-1.5l.29 1.44zM16 12.24c-1.32 1.32-3.38 2.4-4.04 2.73l-2.93-2.93c.32-.65 1.4-2.71 2.73-4.04c4.68-4.68 8.23-3.99 8.23-3.99s.69 3.55-3.99 8.23M15 11c1.1 0 2-.9 2-2s-.9-2-2-2s-2 .9-2 2s.9 2 2 2"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="home-text-container3">
+                    <span class="home-heading17">
+                      <span>Fast</span>
+                      <br />
+                      <span>&nbsp;50 Mbps</span>
+                    </span>
+                    <span class="home-text154">
+                      <span class="home-text155">
+                        - Ideal s/d 5 Device dengan Intensitas Penggunaan Sedang
+                      </span>
+                      <span>
+                        - Cocok Untuk Fasilitas Rumah Pribadi, Kios, Kos /
+                        Kontrakan
+                      </span>
+                      <span>
+                        - Gratis Biaya Pemasangan &amp; Peralatan Wifi
+                      </span>
+                      <span>- Harga Sudah Termasuk PPN 11% dan FLAT</span>
+                      <span>- Kuota Tanpa Batas (Unlimited)</span>
+                      <span>
+                        - Kecepatan Download &amp; Upload Simetris 1:1
+                      </span>
+                      <span>- Full Fiber Optic Installation</span>
+                      <span>- Anti Gangguan Cuaca &amp; Internet Stabil</span>
+                      <span>
+                        - Layanan After-Sales Melalui Whatsapp Account Executive
+                        MyRepublic
+                      </span>
+                    </span>
+                    <span class="home-heading18">
+                      <span>&nbsp;🚀Harga Promo</span>
+                      <br />
+                      <span>Rp. 277.500 / Bulan</span>
+                      <br />
+                    </span>
+                  </div>
+                </div>
+                <a
+                  href="https://wa.me/62895322536555?text=Halo%2C%20saya%20tertarik%20dengan%20layanan%20Fast%2050Mbps."
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="home-cta-btn4 Anchor button"
+                >
+                  <span>Hubungi Kami&nbsp;</span>
+                  <svg
+                    height="24"
+                    width="24"
+                    viewBox="0 0 24 24"
+                    class="home-icon29"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M16.6 14c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1s-.6.8-.8 1c-.1.2-.3.2-.5.1c-.7-.3-1.4-.7-2-1.2c-.5-.5-1-1.1-1.4-1.7c-.1-.2 0-.4.1-.5s.2-.3.4-.4c.1-.1.2-.3.2-.4c.1-.1.1-.3 0-.4S9.7 8.5 9.5 8c-.1-.7-.3-.7-.5-.7h-.5c-.2 0-.5.2-.6.3Q7 8.5 7 9.7c.1.9.4 1.8 1 2.6c1.1 1.6 2.5 2.9 4.2 3.7c.5.2.9.4 1.4.5c.5.2 1 .2 1.6.1c.7-.1 1.3-.6 1.7-1.2c.2-.4.2-.8.1-1.2zm2.5-9.1C15.2 1 8.9 1 5 4.9c-3.2 3.2-3.8 8.1-1.6 12L2 22l5.3-1.4c1.5.8 3.1 1.2 4.7 1.2c5.5 0 9.9-4.4 9.9-9.9c.1-2.6-1-5.1-2.8-7m-2.7 14c-1.3.8-2.8 1.3-4.4 1.3c-1.5 0-2.9-.4-4.2-1.1l-.3-.2l-3.1.8l.8-3l-.2-.3c-2.4-4-1.2-9 2.7-11.5S16.6 3.7 19 7.5c2.4 3.9 1.3 9-2.6 11.4"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+              <div
+                data-thq="slider-slide"
+                class="home-nova100mbps swiper-slide"
+              >
+                <div class="home-features-card4">
+                  <div class="home-icon-container4">
+                    <svg height="24" width="24" viewBox="0 0 24 24">
+                      <path
+                        fill="currentColor"
+                        d="M6.71 18.71c-.28.28-2.17.76-2.17.76s.47-1.88.76-2.17c.17-.19.42-.3.7-.3a1.003 1.003 0 0 1 .71 1.71m.7-7.88l-1.91-.82l1.97-1.97l1.44.29c-.57.83-1.08 1.7-1.5 2.5m6.58 7.67l-.82-1.91c.8-.42 1.67-.93 2.49-1.5l.29 1.44zm6-14.49S16.44 3.32 11.76 8c-1.32 1.32-2.4 3.38-2.73 4.04l2.93 2.93c.65-.32 2.71-1.4 4.04-2.73c4.68-4.68 3.99-8.23 3.99-8.23M15 11c-1.1 0-2-.9-2-2s.9-2 2-2s2 .9 2 2s-.9 2-2 2"
+                        opacity=".3"
+                      ></path>
+                      <path
+                        fill="currentColor"
+                        d="M6 15c-.83 0-1.58.34-2.12.88C2.7 17.06 2 22 2 22s4.94-.7 6.12-1.88A2.996 2.996 0 0 0 6 15m.71 3.71c-.28.28-2.17.76-2.17.76s.47-1.88.76-2.17c.17-.19.42-.3.7-.3a1.003 1.003 0 0 1 .71 1.71m10.71-5.06c6.36-6.36 4.24-11.31 4.24-11.31S16.71.22 10.35 6.58l-2.49-.5a2.03 2.03 0 0 0-1.81.55L2 10.69l5 2.14L11.17 17l2.14 5l4.05-4.05c.47-.47.68-1.15.55-1.81zM7.41 10.83l-1.91-.82l1.97-1.97l1.44.29c-.57.83-1.08 1.7-1.5 2.5m6.58 7.67l-.82-1.91c.8-.42 1.67-.93 2.49-1.5l.29 1.44zM16 12.24c-1.32 1.32-3.38 2.4-4.04 2.73l-2.93-2.93c.32-.65 1.4-2.71 2.73-4.04c4.68-4.68 8.23-3.99 8.23-3.99s.69 3.55-3.99 8.23M15 11c1.1 0 2-.9 2-2s-.9-2-2-2s-2 .9-2 2s.9 2 2 2"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="home-text-container4">
+                    <span class="home-heading19">NOVA 100 Mbps</span>
+                    <span class="home-text169">
+                      <span class="home-text170">
+                        - Ideal s/d 8 Device dengan Intensitas Penggunaan Sedang
+                        - Berat
+                      </span>
+                      <span>
+                        - Cocok Untuk Fasilitas Rumah Pribadi, Kios, Kos /
+                        Kontrakan, dan Ruang Usaha Lainnya
+                      </span>
+                      <span>
+                        - Gratis Biaya Pemasangan &amp; Peralatan Wifi
+                      </span>
+                      <span>- Harga Sudah Termasuk PPN 11% dan FLAT</span>
+                      <span>- Kuota Tanpa Batas (Unlimited)\</span>
+                      <span>
+                        - Kecepatan Download &amp; Upload Simetris 1:1
+                      </span>
+                      <span>- Full Fiber Optic Installation</span>
+                      <span>- Anti Gangguan Cuaca &amp; Internet Stabil</span>
+                      <span>
+                        - Layanan After-Sales Melalui Whatsapp Account Executive
+                        MyRepublic
+                      </span>
+                    </span>
+                    <span class="home-heading20">
+                      <span>&nbsp;🚀Harga Promo</span>
+                      <br />
+                      <span>Rp. 333.000 / Bulan</span>
+                      <br />
+                    </span>
+                  </div>
+                </div>
+                <a
+                  href="https://wa.me/62895322536555?text=Halo%2C%20saya%20tertarik%20dengan%20layanan%20NOVA%20100Mbps."
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="home-cta-btn5 Anchor button"
+                >
+                  <span>Hubungi Kami&nbsp;</span>
+                  <svg
+                    height="24"
+                    width="24"
+                    viewBox="0 0 24 24"
+                    class="home-icon34"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M16.6 14c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1s-.6.8-.8 1c-.1.2-.3.2-.5.1c-.7-.3-1.4-.7-2-1.2c-.5-.5-1-1.1-1.4-1.7c-.1-.2 0-.4.1-.5s.2-.3.4-.4c.1-.1.2-.3.2-.4c.1-.1.1-.3 0-.4S9.7 8.5 9.5 8c-.1-.7-.3-.7-.5-.7h-.5c-.2 0-.5.2-.6.3Q7 8.5 7 9.7c.1.9.4 1.8 1 2.6c1.1 1.6 2.5 2.9 4.2 3.7c.5.2.9.4 1.4.5c.5.2 1 .2 1.6.1c.7-.1 1.3-.6 1.7-1.2c.2-.4.2-.8.1-1.2zm2.5-9.1C15.2 1 8.9 1 5 4.9c-3.2 3.2-3.8 8.1-1.6 12L2 22l5.3-1.4c1.5.8 3.1 1.2 4.7 1.2c5.5 0 9.9-4.4 9.9-9.9c.1-2.6-1-5.1-2.8-7m-2.7 14c-1.3.8-2.8 1.3-4.4 1.3c-1.5 0-2.9-.4-4.2-1.1l-.3-.2l-3.1.8l.8-3l-.2-.3c-2.4-4-1.2-9 2.7-11.5S16.6 3.7 19 7.5c2.4 3.9 1.3 9-2.6 11.4"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+              <div
+                data-thq="slider-slide"
+                class="home-my-gamer250mbps swiper-slide"
+              >
+                <div class="home-features-card5">
+                  <div class="home-icon-container5">
+                    <svg height="24" width="24" viewBox="0 0 24 24">
+                      <path
+                        fill="currentColor"
+                        d="M6.71 18.71c-.28.28-2.17.76-2.17.76s.47-1.88.76-2.17c.17-.19.42-.3.7-.3a1.003 1.003 0 0 1 .71 1.71m.7-7.88l-1.91-.82l1.97-1.97l1.44.29c-.57.83-1.08 1.7-1.5 2.5m6.58 7.67l-.82-1.91c.8-.42 1.67-.93 2.49-1.5l.29 1.44zm6-14.49S16.44 3.32 11.76 8c-1.32 1.32-2.4 3.38-2.73 4.04l2.93 2.93c.65-.32 2.71-1.4 4.04-2.73c4.68-4.68 3.99-8.23 3.99-8.23M15 11c-1.1 0-2-.9-2-2s.9-2 2-2s2 .9 2 2s-.9 2-2 2"
+                        opacity=".3"
+                      ></path>
+                      <path
+                        fill="currentColor"
+                        d="M6 15c-.83 0-1.58.34-2.12.88C2.7 17.06 2 22 2 22s4.94-.7 6.12-1.88A2.996 2.996 0 0 0 6 15m.71 3.71c-.28.28-2.17.76-2.17.76s.47-1.88.76-2.17c.17-.19.42-.3.7-.3a1.003 1.003 0 0 1 .71 1.71m10.71-5.06c6.36-6.36 4.24-11.31 4.24-11.31S16.71.22 10.35 6.58l-2.49-.5a2.03 2.03 0 0 0-1.81.55L2 10.69l5 2.14L11.17 17l2.14 5l4.05-4.05c.47-.47.68-1.15.55-1.81zM7.41 10.83l-1.91-.82l1.97-1.97l1.44.29c-.57.83-1.08 1.7-1.5 2.5m6.58 7.67l-.82-1.91c.8-.42 1.67-.93 2.49-1.5l.29 1.44zM16 12.24c-1.32 1.32-3.38 2.4-4.04 2.73l-2.93-2.93c.32-.65 1.4-2.71 2.73-4.04c4.68-4.68 8.23-3.99 8.23-3.99s.69 3.55-3.99 8.23M15 11c1.1 0 2-.9 2-2s-.9-2-2-2s-2 .9-2 2s.9 2 2 2"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="home-text-container5">
+                    <span class="home-heading21">MyGamer 250 Mbps</span>
+                    <span class="home-text184">
+                      <span class="home-text185">
+                        - Ideal s/d 12 Device dengan Intensitas Penggunaan Berat
+                      </span>
+                      <span>
+                        - Cocok Untuk Live Streaming, Kios, Kos / Kontrakan, dan
+                        Ruang Usaha Lainnya
+                      </span>
+                      <span>
+                        - Gratis Biaya Pemasangan &amp; Peralatan Wifi
+                      </span>
+                      <span>- Harga Sudah Termasuk PPN 11% dan FLAT</span>
+                      <span>- Kuota Tanpa Batas (Unlimited)</span>
+                      <span>
+                        - Kecepatan Download &amp; Upload Simetris 1:1
+                      </span>
+                      <span>- Full Fiber Optic Installation</span>
+                      <span>- Anti Gangguan Cuaca &amp; Internet Stabil</span>
+                      <span>
+                        - Layanan After-Sales Melalui Whatsapp Account Executive
+                        MyRepublic
+                      </span>
+                    </span>
+                    <span class="home-heading22">
+                      <span>&nbsp;🚀Harga Promo</span>
+                      <br />
+                      <span>Rp. 444.000 / Bulan</span>
+                      <br />
+                    </span>
+                  </div>
+                </div>
+                <a
+                  href="https://wa.me/62895322536555?text=Halo%2C%20saya%20tertarik%20dengan%20layanan%20MyGamer%20250Mbps."
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="home-cta-btn6 Anchor button"
+                >
+                  <span>Hubungi Kami&nbsp;</span>
+                  <svg
+                    height="24"
+                    width="24"
+                    viewBox="0 0 24 24"
+                    class="home-icon39"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M16.6 14c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1s-.6.8-.8 1c-.1.2-.3.2-.5.1c-.7-.3-1.4-.7-2-1.2c-.5-.5-1-1.1-1.4-1.7c-.1-.2 0-.4.1-.5s.2-.3.4-.4c.1-.1.2-.3.2-.4c.1-.1.1-.3 0-.4S9.7 8.5 9.5 8c-.1-.7-.3-.7-.5-.7h-.5c-.2 0-.5.2-.6.3Q7 8.5 7 9.7c.1.9.4 1.8 1 2.6c1.1 1.6 2.5 2.9 4.2 3.7c.5.2.9.4 1.4.5c.5.2 1 .2 1.6.1c.7-.1 1.3-.6 1.7-1.2c.2-.4.2-.8.1-1.2zm2.5-9.1C15.2 1 8.9 1 5 4.9c-3.2 3.2-3.8 8.1-1.6 12L2 22l5.3-1.4c1.5.8 3.1 1.2 4.7 1.2c5.5 0 9.9-4.4 9.9-9.9c.1-2.6-1-5.1-2.8-7m-2.7 14c-1.3.8-2.8 1.3-4.4 1.3c-1.5 0-2.9-.4-4.2-1.1l-.3-.2l-3.1.8l.8-3l-.2-.3c-2.4-4-1.2-9 2.7-11.5S16.6 3.7 19 7.5c2.4 3.9 1.3 9-2.6 11.4"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+              <div
+                data-thq="slider-slide"
+                class="home-prime500mbps swiper-slide"
+              >
+                <div class="home-features-card6">
+                  <div class="home-icon-container6">
+                    <svg height="24" width="24" viewBox="0 0 24 24">
+                      <path
+                        fill="currentColor"
+                        d="M6.71 18.71c-.28.28-2.17.76-2.17.76s.47-1.88.76-2.17c.17-.19.42-.3.7-.3a1.003 1.003 0 0 1 .71 1.71m.7-7.88l-1.91-.82l1.97-1.97l1.44.29c-.57.83-1.08 1.7-1.5 2.5m6.58 7.67l-.82-1.91c.8-.42 1.67-.93 2.49-1.5l.29 1.44zm6-14.49S16.44 3.32 11.76 8c-1.32 1.32-2.4 3.38-2.73 4.04l2.93 2.93c.65-.32 2.71-1.4 4.04-2.73c4.68-4.68 3.99-8.23 3.99-8.23M15 11c-1.1 0-2-.9-2-2s.9-2 2-2s2 .9 2 2s-.9 2-2 2"
+                        opacity=".3"
+                      ></path>
+                      <path
+                        fill="currentColor"
+                        d="M6 15c-.83 0-1.58.34-2.12.88C2.7 17.06 2 22 2 22s4.94-.7 6.12-1.88A2.996 2.996 0 0 0 6 15m.71 3.71c-.28.28-2.17.76-2.17.76s.47-1.88.76-2.17c.17-.19.42-.3.7-.3a1.003 1.003 0 0 1 .71 1.71m10.71-5.06c6.36-6.36 4.24-11.31 4.24-11.31S16.71.22 10.35 6.58l-2.49-.5a2.03 2.03 0 0 0-1.81.55L2 10.69l5 2.14L11.17 17l2.14 5l4.05-4.05c.47-.47.68-1.15.55-1.81zM7.41 10.83l-1.91-.82l1.97-1.97l1.44.29c-.57.83-1.08 1.7-1.5 2.5m6.58 7.67l-.82-1.91c.8-.42 1.67-.93 2.49-1.5l.29 1.44zM16 12.24c-1.32 1.32-3.38 2.4-4.04 2.73l-2.93-2.93c.32-.65 1.4-2.71 2.73-4.04c4.68-4.68 8.23-3.99 8.23-3.99s.69 3.55-3.99 8.23M15 11c1.1 0 2-.9 2-2s-.9-2-2-2s-2 .9-2 2s.9 2 2 2"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="home-text-container6">
+                    <span class="home-heading23">PRIME 500 Mbps</span>
+                    <span class="home-text199">
+                      <span class="home-text200">
+                        - Ideal s/d 17 Device dengan Intensitas Penggunaan Berat
+                      </span>
+                      <span>
+                        - Cocok Untuk Live Streaming, Kos/Kontrakan, Ruang
+                        Usaha, Perusahaan/Perkantoran
+                      </span>
+                      <span>
+                        - Gratis Biaya Pemasangan &amp; Peralatan Wifi
+                      </span>
+                      <span>- Harga Sudah Termasuk PPN 11% dan FLAT</span>
+                      <span>- Kuota Tanpa Batas (Unlimited)</span>
+                      <span>
+                        - Kecepatan Download &amp; Upload Simetris 1:1
+                      </span>
+                      <span>- Full Fiber Optic Installation</span>
+                      <span>- Anti Gangguan Cuaca &amp; Internet Stabil</span>
+                      <span>
+                        - Layanan After-Sales Melalui Whatsapp Account Executive
+                        MyRepublic
+                      </span>
+                    </span>
+                    <span class="home-heading24">
+                      <span>&nbsp;🚀Harga Promo</span>
+                      <br />
+                      <span>Rp. 555.000 / Bulan</span>
+                      <br />
+                    </span>
+                  </div>
+                </div>
+                <a
+                  href="https://wa.me/62895322536555?text=Halo%2C%20saya%20tertarik%20dengan%20layanan%20PRIME%20500Mbps."
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="home-cta-btn7 Anchor button"
+                >
+                  <span>Hubungi Kami&nbsp;</span>
+                  <svg
+                    height="24"
+                    width="24"
+                    viewBox="0 0 24 24"
+                    class="home-icon44"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M16.6 14c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1s-.6.8-.8 1c-.1.2-.3.2-.5.1c-.7-.3-1.4-.7-2-1.2c-.5-.5-1-1.1-1.4-1.7c-.1-.2 0-.4.1-.5s.2-.3.4-.4c.1-.1.2-.3.2-.4c.1-.1.1-.3 0-.4S9.7 8.5 9.5 8c-.1-.7-.3-.7-.5-.7h-.5c-.2 0-.5.2-.6.3Q7 8.5 7 9.7c.1.9.4 1.8 1 2.6c1.1 1.6 2.5 2.9 4.2 3.7c.5.2.9.4 1.4.5c.5.2 1 .2 1.6.1c.7-.1 1.3-.6 1.7-1.2c.2-.4.2-.8.1-1.2zm2.5-9.1C15.2 1 8.9 1 5 4.9c-3.2 3.2-3.8 8.1-1.6 12L2 22l5.3-1.4c1.5.8 3.1 1.2 4.7 1.2c5.5 0 9.9-4.4 9.9-9.9c.1-2.6-1-5.1-2.8-7m-2.7 14c-1.3.8-2.8 1.3-4.4 1.3c-1.5 0-2.9-.4-4.2-1.1l-.3-.2l-3.1.8l.8-3l-.2-.3c-2.4-4-1.2-9 2.7-11.5S16.6 3.7 19 7.5c2.4 3.9 1.3 9-2.6 11.4"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div
+              data-thq="slider-pagination"
+              class="home-slider-pagination swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal"
+            >
+              <div
+                data-thq="slider-pagination-bullet"
+                class="swiper-pagination-bullet swiper-pagination-bullet-active"
+              ></div>
+              <div
+                data-thq="slider-pagination-bullet"
+                class="swiper-pagination-bullet swiper-pagination-bullet-active"
+              ></div>
+              <div
+                data-thq="slider-pagination-bullet"
+                class="swiper-pagination-bullet swiper-pagination-bullet-active"
+              ></div>
+              <div
+                data-thq="slider-pagination-bullet"
+                class="swiper-pagination-bullet swiper-pagination-bullet-active"
+              ></div>
+              <div
+                data-thq="slider-pagination-bullet"
+                class="swiper-pagination-bullet swiper-pagination-bullet-active"
+              ></div>
+              <div
+                data-thq="slider-pagination-bullet"
+                class="swiper-pagination-bullet"
+              ></div>
+            </div>
+            <div
+              data-thq="slider-button-prev"
+              class="home-slider-button-prev swiper-button-prev"
+            ></div>
+            <div
+              data-thq="slider-button-next"
+              class="home-slider-button-next swiper-button-next"
+            ></div>
+          </div>
+        </div>
+        <div class="home-section-separator"></div>
+        <footer1-wrapper class="footer1-wrapper">
+          <!--Footer1 component-->
+          <footer class="footer1-footer1 thq-section-padding">
+            <div class="footer1-max-width thq-section-max-width">
+              <div class="footer1-content">
+                <div class="footer1-newsletter">
+                  <img
+                    src="public/myrep-200h.jpeg"
+                    alt="MyRepublic Logo"
+                    class="footer1-image1"
+                  />
+                  <span class="thq-body-small">MyRepublic</span>
+                  <div class="footer1-actions">
+                    <span class="footer1-content2 thq-body-small">
+                      <fragment class="home-fragment2">
+                        <span class="home-text215">
+                          Member of Sinarmas Group
+                        </span>
+                      </fragment>
+                    </span>
+                  </div>
+                </div>
+                <div class="footer1-column3">
+                  <strong class="thq-body-large footer1-social-link1-title">
+                    <fragment class="home-fragment3">
+                      <span class="home-text216">Follow Us</span>
+                    </fragment>
+                  </strong>
+                  <div class="footer1-social-links">
+                    <a
+                      href="https://www.facebook.com/share/16UtvVzCbo/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="footer1-link1"
+                    >
+                      <div class="footer1-link2">
+                        <svg
+                          viewBox="0 0 877.7142857142857 1024"
+                          class="thq-icon-small"
+                        >
+                          <path
+                            d="M713.143 73.143c90.857 0 164.571 73.714 164.571 164.571v548.571c0 90.857-73.714 164.571-164.571 164.571h-107.429v-340h113.714l17.143-132.571h-130.857v-84.571c0-38.286 10.286-64 65.714-64l69.714-0.571v-118.286c-12-1.714-53.714-5.143-101.714-5.143-101.143 0-170.857 61.714-170.857 174.857v97.714h-114.286v132.571h114.286v340h-304c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">Facebook</span>
+                      </div>
+                    </a>
+                    <a
+                      href="https://www.instagram.com/myrepublic.diy"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="footer1-link3"
+                    >
+                      <div class="footer1-link4">
+                        <svg
+                          viewBox="0 0 877.7142857142857 1024"
+                          class="thq-icon-small"
+                        >
+                          <path
+                            d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">Instagram</span>
+                      </div>
+                    </a>
+                    <a
+                      href="https://www.tiktok.com/@myrepublic.diy"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="footer1-link5"
+                    >
+                      <div class="footer1-link6">
+                        <svg height="24" width="24" viewBox="0 0 24 24">
+                          <g
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="1.5"
+                            color="currentColor"
+                          >
+                            <path
+                              d="M2.5 12c0-4.478 0-6.718 1.391-8.109S7.521 2.5 12 2.5c4.478 0 6.718 0 8.109 1.391S21.5 7.521 21.5 12c0 4.478 0 6.718-1.391 8.109S16.479 21.5 12 21.5c-4.478 0-6.718 0-8.109-1.391S2.5 16.479 2.5 12"
+                            ></path>
+                            <path
+                              d="M10.536 11.008c-.82-.116-2.69.075-3.606 1.77s.007 3.459.584 4.129c.569.627 2.378 1.814 4.297.655c.476-.287 1.069-.502 1.741-2.747l-.078-8.834c-.13.973.945 3.255 4.004 3.525"
+                            ></path>
+                          </g>
+                        </svg>
+                        <span class="thq-body-small">TikTok</span>
+                      </div>
+                    </a>
+                    <a
+                      href="https://wa.me/62895322536555?text=Halo%2C%20saya%20tertarik%20dengan%20layanan%20internet%20Anda."
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="footer1-link7"
+                    >
+                      <div class="footer1-link8">
+                        <svg height="24" width="24" viewBox="0 0 24 24">
+                          <path
+                            fill="currentColor"
+                            d="M16.6 14c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1s-.6.8-.8 1c-.1.2-.3.2-.5.1c-.7-.3-1.4-.7-2-1.2c-.5-.5-1-1.1-1.4-1.7c-.1-.2 0-.4.1-.5s.2-.3.4-.4c.1-.1.2-.3.2-.4c.1-.1.1-.3 0-.4S9.7 8.5 9.5 8c-.1-.7-.3-.7-.5-.7h-.5c-.2 0-.5.2-.6.3Q7 8.5 7 9.7c.1.9.4 1.8 1 2.6c1.1 1.6 2.5 2.9 4.2 3.7c.5.2.9.4 1.4.5c.5.2 1 .2 1.6.1c.7-.1 1.3-.6 1.7-1.2c.2-.4.2-.8.1-1.2zm2.5-9.1C15.2 1 8.9 1 5 4.9c-3.2 3.2-3.8 8.1-1.6 12L2 22l5.3-1.4c1.5.8 3.1 1.2 4.7 1.2c5.5 0 9.9-4.4 9.9-9.9c.1-2.6-1-5.1-2.8-7m-2.7 14c-1.3.8-2.8 1.3-4.4 1.3c-1.5 0-2.9-.4-4.2-1.1l-.3-.2l-3.1.8l.8-3l-.2-.3c-2.4-4-1.2-9 2.7-11.5S16.6 3.7 19 7.5c2.4 3.9 1.3 9-2.6 11.4"
+                          ></path>
+                        </svg>
+                        <path
+                          d="M562.857 556.571c9.714 0 102.857 48.571 106.857 55.429 1.143 2.857 1.143 6.286 1.143 8.571 0 14.286-4.571 30.286-9.714 43.429-13.143 32-66.286 52.571-98.857 52.571-27.429 0-84-24-108.571-35.429-81.714-37.143-132.571-100.571-181.714-173.143-21.714-32-41.143-71.429-40.571-110.857v-4.571c1.143-37.714 14.857-64.571 42.286-90.286 8.571-8 17.714-12.571 29.714-12.571 6.857 0 13.714 1.714 21.143 1.714 15.429 0 18.286 4.571 24 19.429 4 9.714 33.143 87.429 33.143 93.143 0 21.714-39.429 46.286-39.429 59.429 0 2.857 1.143 5.714 2.857 8.571 12.571 26.857 36.571 57.714 58.286 78.286 26.286 25.143 54.286 41.714 86.286 57.714 4 2.286 8 4 12.571 4 17.143 0 45.714-55.429 60.571-55.429zM446.857 859.429c197.714 0 358.857-161.143 358.857-358.857s-161.143-358.857-358.857-358.857-358.857 161.143-358.857 358.857c0 75.429 24 149.143 68.571 210.286l-45.143 133.143 138.286-44c58.286 38.286 127.429 59.429 197.143 59.429zM446.857 69.714c237.714 0 430.857 193.143 430.857 430.857s-193.143 430.857-430.857 430.857c-72.571 0-144.571-18.286-208.571-53.714l-238.286 76.571 77.714-231.429c-40.571-66.857-61.714-144-61.714-222.286 0-237.714 193.143-430.857 430.857-430.857z"
+                        ></path>
+                        <span class="thq-body-small">WhatsApp</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="footer1-credits">
+                <div class="thq-divider-horizontal"></div>
+                <div class="footer1-row">
+                  <span class="thq-body-small">
+                    <fragment class="home-fragment1">
+                      <span class="home-text214">
+                        © 2021 MyRepublic. All Rights Reserved.
+                      </span>
+                    </fragment>
+                  </span>
+                  <div class="footer1-footer-links"></div>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </footer1-wrapper>
+      </div>
+    </div>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
