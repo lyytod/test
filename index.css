@@ -580,6 +580,9 @@
   }
   .home-content-container {
     flex-direction: column-reverse;
+    height: auto;
+    padding-top: var(--dl-layout-space-fourunits);
+    padding-bottom: var(--dl-layout-space-fourunits);
   }
   .home-hero-text {
     width: 80%;
@@ -638,11 +641,12 @@
   .home-text-container4,
   .home-text-container5,
   .home-text-container6 {
-    align-items: center;
+    align-items: flex-start;
+    text-align: left;
   }
-  .home-heading13, .home-heading16 {
+  .home-heading13,
+  .home-heading16 {
     margin-top: var(--dl-layout-space-unit);
-    margin-left: 0;
   }
   .home-cta-btn2, .home-cta-btn3, .home-cta-btn4, .home-cta-btn5, .home-cta-btn6, .home-cta-btn7 {
     margin-top: var(--dl-layout-space-twounits);
