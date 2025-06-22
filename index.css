@@ -560,6 +560,17 @@
   display: block;
 }
  
+.swiper-button-prev,
+.swiper-button-next {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.home-slider:hover .swiper-button-prev,
+.home-slider:hover .swiper-button-next {
+  opacity: 1;
+}
+ 
 .home-slider-button-prev {
   display: block;
 }
@@ -656,6 +667,10 @@
     width: 100%;
     align-items: center;
     margin-bottom: var(--dl-layout-space-tripleunit);
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    opacity: 1;
   }
   .icon-container {
     flex-direction: row;
