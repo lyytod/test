@@ -283,13 +283,16 @@
   flex: 0 0 auto;
   left: 0px;
   width: 100%;
-  height: 100VH;
+  height: auto;
   display: none;
   padding: var(--dl-layout-space-doubleunit);
   position: absolute;
   align-items: flex-start;
   flex-direction: column;
-  background-color: #fff;
+  background-color: var(--dl-color-gray-white);
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  box-shadow: 5px 5px 10px 0px #b9b9b9;
 }
  
 .home-container2 {
@@ -554,7 +557,7 @@
 }
  
 .home-slider-pagination {
-  margin-top: var(--dl-layout-space-twounits);
+  margin-top: var(--dl-layout-space-fourunits);
   fill: var(--dl-color-gray-black);
   color: var(--dl-color-gray-black);
   display: block;
@@ -573,13 +576,42 @@
   height: 1px;
   display: flex;
   align-items: flex-start;
+  border-color: var(--dl-color-gray-900);
+  border-style: solid;
+  border-width: 1px;
   flex-direction: column;
-  background-color: var(--dl-color-gray-900);
+}
+
+.home-heading12,
+.home-heading13,
+.home-heading15,
+.home-heading16,
+.home-heading18,
+.home-heading20,
+.home-heading22,
+.home-heading24 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: var(--dl-layout-space-unit);
+}
+
+.price-button {
+  color: var(--dl-color-gray-white);
+  text-align: center;
+  padding: var(--dl-layout-space-unit) var(--dl-layout-space-fourunits);
+  border-radius: 30px;
+  text-decoration: none;
+  background-color: var(--dl-color-gray-black);
+  display: block;
+  width: fit-content;
+  margin-top: var(--dl-layout-space-unit);
+  margin-bottom: var(--dl-layout-space-unit);
 }
 
 @media(max-width: 991px) {
   .home-hero {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   .home-content-container {
     flex-direction: column-reverse;
@@ -723,7 +755,8 @@
 .paket-kartu .home-cta-btn5,
 .paket-kartu .home-cta-btn6,
 .paket-kartu .home-cta-btn7 {
-  margin-bottom: auto;
+  margin-top: var(--dl-layout-space-doubleunit);
+  margin-bottom: var(--dl-layout-space-doubleunit);
   align-self: center;
 }
 
@@ -739,7 +772,7 @@
 }
 
 .home-slider-pagination {
-  margin-top: var(--dl-layout-space-twounits);
+  margin-top: var(--dl-layout-space-fourunits);
   fill: var(--dl-color-gray-black);
   color: var(--dl-color-gray-black);
   display: block;
