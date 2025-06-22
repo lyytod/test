@@ -41,8 +41,8 @@
 }
  
 .footer1-image1 {
-  width: 132px;
-  height: 132px;
+  width: 216px;
+  height: auto;
 }
  
 .footer1-actions {
@@ -394,8 +394,8 @@
 }
  
 .home-text100 {
-  color: var(--dl-color-gray-700);
-  text-align: center;
+  color: var(--dl-color-theme-neutral-dark);
+  text-align: left;
   margin-bottom: var(--dl-layout-space-fiveunits);
 }
  
@@ -483,19 +483,16 @@
   margin-bottom: 0;
 }
  
-.home-icon-container1,
-.home-icon-container2,
-.home-icon-container3,
-.home-icon-container4,
-.home-icon-container5,
-.home-icon-container6 {
+/* All icon containers will now share a single, consistent style */
+.icon-container {
   display: flex;
   padding: var(--dl-layout-space-unit);
   align-items: center;
-  margin-right: var(--dl-layout-space-tripleunit);
   border-radius: var(--dl-layout-radius-round);
+  margin-bottom: var(--dl-layout-space-doubleunit);
   flex-direction: column;
-  background-color: var(--dl-color-gray-900);
+  background-color: var(--dl-color-theme-neutral-dark);
+  color: white;
 }
  
 .home-text-container1,
@@ -660,15 +657,8 @@
     align-items: center;
     margin-bottom: var(--dl-layout-space-tripleunit);
   }
-  .home-icon-container1,
-  .home-icon-container2,
-  .home-icon-container3,
-  .home-icon-container4,
-  .home-icon-container5,
-  .home-icon-container6 {
+  .icon-container {
     flex-direction: row;
-    margin-right: 0;
-    margin-bottom: var(--dl-layout-space-unit);
   }
   .home-text-container1,
   .home-text-container2,
@@ -714,7 +704,14 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
+  background-image: url("public/myrepublic%20wifi%20-%20daerah%20istimewa%20yogyakarta%20(2)-1500w.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--dl-color-theme-neutral-dark);
+  border-radius: 8px;
+  overflow: hidden;
 }
 .paket-kartu .home-text-container1,
 .paket-kartu .home-text-container2,
@@ -741,10 +738,6 @@
 .paket-fitur li {
   margin-bottom: var(--dl-layout-space-halfunit);
 }
-.paket-kartu .home-text-container1,
-.paket-kartu .home-text-container2,
-.paket-kartu .home-text-container3,
-.paket-kartu .home-text-container4,
 .paket-kartu .home-text-container5,
 .paket-kartu .home-text-container6 {
   width: 100%;
@@ -755,7 +748,7 @@
 .paket-kartu .home-cta-btn5,
 .paket-kartu .home-cta-btn6,
 .paket-kartu .home-cta-btn7 {
-  margin-top: var(--dl-layout-space-doubleunit);
+  margin-top: auto;
   margin-bottom: var(--dl-layout-space-doubleunit);
   align-self: center;
 }
@@ -778,15 +771,6 @@
   display: block;
 }
 
-.home-icon-container6 {
-  display: flex;
-  padding: var(--dl-layout-space-unit);
-  align-items: center;
-  margin-right: var(--dl-layout-space-tripleunit);
-  border-radius: var(--dl-layout-radius-round);
-  flex-direction: column;
-  background-color: var(--dl-color-gray-900);
-}
 .home-cta-btn2 svg,
 .home-cta-btn3 svg,
 .home-cta-btn4 svg,
@@ -807,4 +791,35 @@
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
+}
+
+.home-heading23,
+.home-heading24 {
+  margin-bottom: var(--dl-layout-space-tripleunit);
+}
+
+.home-heading11,
+.home-heading14,
+.home-heading17,
+.home-heading19,
+.home-heading21,
+.home-heading23 {
+  font-weight: bold;
+}
+ 
+.home-text110,
+.home-text132,
+.home-text133,
+.home-text154,
+.home-text155,
+.home-text169,
+.home-text170,
+.home-text184,
+.home-text185,
+.home-text199,
+.home-text200 {
+  grid-row-end: 2;
+  grid-row-start: 1;
+  grid-column-end: 2;
+  grid-column-start: 1;
 }
