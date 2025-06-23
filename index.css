@@ -838,3 +838,18 @@
   grid-column-end: 2;
   grid-column-start: 1;
 }
+
+.promo-info {
+  font-size: 0.95em;
+  color: #d2691e;
+  margin-top: 8px;
+  margin-bottom: 32px;
+  font-style: italic;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .promo-info {
+    margin-bottom: 16px;
+  }
+}
